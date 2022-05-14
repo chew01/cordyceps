@@ -20,7 +20,7 @@ type CarouselOptions = {
 };
 
 type CarouselSendOptions = {
-  displayPageCount: boolean;
+  displayPageCount?: boolean;
   timeout?: number;
 };
 
